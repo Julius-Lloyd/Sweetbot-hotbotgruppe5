@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+@import "simplegrid.css";
+
+body {
+	background-color: #3D6BB5;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	
+	
+}
+.content {
+	background-color: #FFFFFF;
+	overflow: visible;
+  
+}
+.logo {
+	margin-top: 20px;
+	
+}
+.mainNav {
+	background-color: #749CD3;
+	height: 100px;
+	
+}
+	
+
+ul.menu {
+	display: inline-block;
+	text-align: right;
+	padding-top: 20px;
+	
+}
+nav ul {
+	
+	overflow: hidden;
+	padding-top: 15px;
+	padding-left: 80px;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	text-align: right;
+}
+
+nav a {
+	display:block;
+	padding: 15px;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;
+	color: #000000;
+	font-family: /*Skal være Larto medium. orkede ikke lige finde det frem*/;
+
+		
+}
+/*slide show grid*/
+.slide {
+	text-align: center;
+	margin-top: 0%;
+
+}
+/*sliderammen som eksempel.*/
+.ramme {
+	object-position: center;
+	width: 800px;
+	
+}
+/*Cyber security billeder som eks. "de skal fine justere!"*/
+.design {
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+.design2 {
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-bottom: 100px
+}
+/*side breaker ligesom i XD*/
+.tilbyder {
+	background-color: #3D6BB5;
+	text-align: center;
+	margin-top: 0%;
+	height: 80px;
+
+}
+.footer {
+
+	color: #000000;
+	text-align: center;
+	margin-top: 0%;
+	height: 150px;
+	border-top: 2px solid #000000;
+
+}
+
+[class*='col-'] {
+	padding-right: 0px;
+	margin-top: -20px;
+	margin-bottom: -10px;
+}
